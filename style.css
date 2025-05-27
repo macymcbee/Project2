@@ -1,0 +1,107 @@
+body{
+    background-color: #EFF7FC;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    font-family: "Playful Display", serif;
+}
+
+nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #222;
+    font-weight: 300;
+}
+
+.hero{
+    padding: 60px 40px;
+}
+
+ .hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: 400;
+}
+
+ .hero p {
+   max-width: 600px;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+ .hero a {
+    display: inline-block;
+    margin-top: 30px;
+    font-style: italic;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.portfolio {
+    padding: 40px;
+}
+
+.portfolio h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.card h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+h4{
+    font-family: "Playful Display", serif;  
+    text-align: center;
+}
+
+.cta {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.cta button {
+    background: none;
+    border: 1px solid #000;
+    padding: 12px 24px;
+    border-radius: 24px;
+    font-style: italic;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #CDD1E3;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: 'Playfair Display', serif;
+}
+
+footer div {
+    max-width: 200px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;
+}
