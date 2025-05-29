@@ -70,12 +70,14 @@ nav a{
 
 h4{
     font-family: "Playful Display", serif;  
+    text-decoration: thin;
     text-align: center;
 }
 
 .cta {
     text-align: center;
     margin: 40px 0;
+    text-decoration: dotted;
 }
 
 .cta button {
