@@ -21,7 +21,9 @@ nav a{
 }
 
 .hero{
-    padding: 60px 40px;
+    padding: 60px 80px;
+    padding-top: 180px;
+    padding-bottom: 160px;
 }
 
  .hero h1 {
@@ -55,6 +57,11 @@ nav a{
     font-size: 1.5rem;
 }
 
+h2{
+    font-family:'Playfair Display', serif;
+    text-decoration: none;
+    font-weight: normal;
+}
 .card {
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -69,9 +76,10 @@ nav a{
 }
 
 h4{
-    font-family: "Playful Display", serif;  
-    text-decoration: thin;
-    text-align: center;
+    font-family: "Playful Display", serif;
+    font-weight: normal;
+    text-align: right;
+    font-size: 20px;
 }
 
 .cta {
@@ -106,4 +114,13 @@ footer div {
 footer a {
     text-decoration: none;
     color: #000;
+}
+
+
+.card2{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #EFF7FC;
 }
